@@ -5,10 +5,6 @@ users = [{"name":"Aggy Cholomin","age":82,"address":"8961 Grim Street","prefered
 {"name":"Shena Jeandot","age":19,"address":"36 Transport Parkway","prefered_language":"Dari","gender":"Female"},
 {"name":"Zondra Strowan","age":25,"address":"0 Mayfield Parkway","prefered_language":"Belarusian","gender":"Female"},
 {"name":"Claire Vasilyonok","age":31,"address":"6 Knutson Drive","prefered_language":"Hungarian","gender":"Female"},
-{"name":"Genvieve Wadly","age":35,"address":"203 Clemons Park","prefered_language":"Malayalam","gender":"Female"},
-{"name":"Winslow Crowley","age":46,"address":"57 Oneill Road","prefered_language":"Greek","gender":"Male"},
-{"name":"Orsola Bellany","age":55,"address":"9219 Harper Park","prefered_language":"Hindi","gender":"Female"},
-{dewlkfnlewk}
 with open("users.txt", "w") as f:
     for i, user in enumerate(users):
         f.write(f'User_id : {i+1}\n')
