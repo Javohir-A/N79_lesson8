@@ -17,6 +17,7 @@ with open("users.txt", "w") as f:
         f.writelines([f"{key} : {val}\n" for key, val in user.items()])
         f.write(f'\n')
 # %%
+print("Darsga qarelar")
 with open("users.txt", "r") as f:
     data = f.read()
 users = []
