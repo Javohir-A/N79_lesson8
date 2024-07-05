@@ -8,7 +8,7 @@ users = [{"name":"Aggy Cholomin","age":82,"address":"8961 Grim Street","prefered
 {"name":"Genvieve Wadly","age":35,"address":"203 Clemons Park","prefered_language":"Malayalam","gender":"Female"},
 {"name":"Winslow Crowley","age":46,"address":"57 Oneill Road","prefered_language":"Greek","gender":"Male"},
 {"name":"Orsola Bellany","age":55,"address":"9219 Harper Park","prefered_language":"Hindi","gender":"Female"},
-{"name":"Constantine Rugieri","age":84,"address":"8 Superior Road","prefered_language":"Tajik","gender":"Female"}
+
 with open("users.txt", "w") as f:
     for i, user in enumerate(users):
         f.write(f'User_id : {i+1}\n')
